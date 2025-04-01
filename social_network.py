@@ -89,7 +89,7 @@ if __name__ == "__main__":
                     create_user()
                     
                 elif action == "posts":
-                    message =command.split()[2:] 
+                    message =command.split( )[2:] 
                     message = ''.join(message)
                     write_post(message)
 
